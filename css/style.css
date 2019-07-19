@@ -1,13 +1,122 @@
 @font-face {
 	font-family: 'OpenSans';
-	src: url(fonts/OpenSans-Regular.ttf);
+	src: url(../fonts/OpenSans-Regular.ttf);
+	src: url(../fonts/OpenSans-Regular.woff);
+	src: url(../fonts/OpenSans-Regular.woff2);
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'OpenSans';
-	src: url(fonts/OpenSans-Bold.ttf);
+	src: url(../fonts/OpenSans-Bold.ttf);
+	src: url(../fonts/OpenSans-Bold.woff);
+	src: url(../fonts/OpenSans-Bold.woff2);
 	font-weight: 700;
 	font-style: normal;
+}
+
+body {
+	margin: 0;
+	font-family: OpenSans, Aril, cursive;
+	font-weight: 400;
+	background-color: #ffffff;
+}
+
+.header {
+	min-height: 568px;
+
+	background-color: #0a0e34;
+	background-image: url(../images/football_767.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	max-height: 568px;
+
+	background-color: #0a0e34;
+	opacity: 0.9;
+}
+
+.header_content {
+	position: relative;
+}
+
+.logotype {
+	margin-left: auto;
+	margin-right: auto;
+	width: 133px;
+}
+
+.logotype_svg {
+	margin-top: 33px;
+
+	fill: #ffffff;
+}
+
+.header_headline {
+	margin-top: 136px;
+
+	color: #ffffff;
+	font-size: 28px;
+	line-height: 31px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.headline_1 {
+	position: relative;
+	width: 208px;
+	left: calc(50vw - 140px);
+}
+
+.headline_2 {
+	position: relative;
+	margin-top: 29px;
+	width: 214px;
+	left: calc(50vw - 96px);
+}
+
+.dowload_button {
+	box-sizing: border-box;
+	width: 280px;
+	height: 35px;
+	margin-top: 89px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+	
+	background-color: #5e3db3;
+	border-radius: 17px 17px;
+}
+
+.dowload_store {
+	display: flex;
+
+	font-size: 8px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.store_svg {
+	height: 24px;
+	fill: #ffffff;
+	margin-left: 82px;
+	margin-right: 8px;
+}
+
+.store {
+	font-weight: 700;
+}
+
+.dowload_google {
+	margin-top: 14px;
 }
