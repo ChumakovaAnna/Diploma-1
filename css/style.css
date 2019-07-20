@@ -23,6 +23,21 @@ body {
 	background-color: #ffffff;
 }
 
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+ol, h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+  margin: 0;
+}
+
 .header {
 	min-height: 568px;
 
@@ -119,4 +134,77 @@ body {
 
 .dowload_google {
 	margin-top: 14px;
+}
+
+.h2_a {
+	margin-left: 20px;
+
+	color: #e7e7e7;
+	font-size: 50px;
+}
+
+.pictore_football {
+	position: absolute;
+	width: 192px;
+	left: calc(50vw - 90px);
+}
+
+.list_section {
+	margin-top: 225px;
+}
+
+.iteam_section {
+	padding-top: 60px;
+	padding-bottom: 51px;
+}
+
+.iteam_section:first-child {
+	padding-top: 83px;
+}
+
+.iteam_section:nth-child(4n+1) {
+	background-color: #fafafa;	
+}
+
+.iteam_section:nth-child(4n+2) {
+	background-color: #f5f4f9;	
+}
+
+.iteam_section:nth-child(4n+3) {
+	background-color: #5e3db3;	
+}
+
+.article_section {
+  margin-left: 20px;
+}
+
+.number_h3 {
+	display: flex;
+}
+.number {
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.number::after {
+	content: "";
+	display: block;
+	width: 15px;
+	height: 4px;
+
+	background-color: #5e3db3;
+}
+
+.h3_a {
+	margin-left: 10px;
+
+	color: #c1c1c1; 
+}
+
+.text_section {
+	margin-top: 27px;
+
+	font-size: 15px;
+	line-height: 18px;
 }
