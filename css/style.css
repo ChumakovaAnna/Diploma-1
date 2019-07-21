@@ -197,9 +197,9 @@ li {
 	background-color: #5e3db3;
 }
 
-.number:nth-child(3n+3)::after {
+/* .number:nth-child(3n+3)::after {
 	background-color: #ffffff;
-}
+} */
 
 .h3_a {
 	margin-left: 10px;
@@ -214,11 +214,11 @@ li {
 	line-height: 18px;
 }
 
-.text_section:nth-child(3n+3) {
+/* .text_section:nth-child(3n+3) {
   color: #ffffff;
-}
+} */
 
-.pictore_basketballer {
+.picture_basketballer {
 	position: absolute;
 	width: 302px;
 	left: calc(50vw - 151px);
@@ -228,15 +228,21 @@ li {
 	background-color: #090a36;	
 }
 
-.number_basketballer:nth-child(3n+3) {
+/* .number_basketballer:nth-child(3n+3) {
 	color: #8761e0;
-}
-
-.picture_container {
-  max-height: 351px;
-}
+} */
 
 .picture_development {
-	position: absolute;	
-	height: 100%;
+	width: 100%;
 }
+
+.number_background {
+	position: absolute;
+	margin-left: 20px;
+
+	width: 70px;
+	height: 70px;
+
+	background-color: #5e3db3;
+}
+
