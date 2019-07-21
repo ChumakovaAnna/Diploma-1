@@ -162,15 +162,15 @@ li {
 	padding-top: 83px;
 }
 
-.iteam_section:nth-child(4n+1) {
+.iteam_section:nth-child(3n+1) {
 	background-color: #fafafa;	
 }
 
-.iteam_section:nth-child(4n+2) {
+.iteam_section:nth-child(3n+2) {
 	background-color: #f5f4f9;	
 }
 
-.iteam_section:nth-child(4n+3) {
+.iteam_section:nth-child(3n+3) {
 	background-color: #5e3db3;	
 }
 
@@ -181,6 +181,7 @@ li {
 .number_h3 {
 	display: flex;
 }
+
 .number {
 	font-size: 14px;
 	font-weight: 700;
@@ -196,6 +197,10 @@ li {
 	background-color: #5e3db3;
 }
 
+.number:nth-child(3n+3)::after {
+	background-color: #ffffff;
+}
+
 .h3_a {
 	margin-left: 10px;
 
@@ -207,4 +212,31 @@ li {
 
 	font-size: 15px;
 	line-height: 18px;
+}
+
+.text_section:nth-child(3n+3) {
+  color: #ffffff;
+}
+
+.pictore_basketballer {
+	position: absolute;
+	width: 302px;
+	left: calc(50vw - 151px);
+}
+
+.iteam_basketballer:nth-child(3n+3) {
+	background-color: #090a36;	
+}
+
+.number_basketballer:nth-child(3n+3) {
+	color: #8761e0;
+}
+
+.picture_container {
+  max-height: 351px;
+}
+
+.picture_development {
+	position: absolute;	
+	height: 100%;
 }
