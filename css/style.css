@@ -155,15 +155,13 @@ li {
 }
 
 .picture_football {
-	position: relative;
-	z-index: 10;
+	position: absolute;
 	width: 192px;
 	left: calc(50vw - 90px);
 }
 
 .list_section {
-	position: relative;
-	top: -55px;
+	margin-top: 225px;
 }
 
 .iteam_section {
@@ -233,8 +231,7 @@ li {
 }
 
 .picture_basketballer {
-	position: relative;
-	z-index: 10;
+	position: absolute;
 	width: 302px;
 	left: calc(50vw - 151px);
 }
