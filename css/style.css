@@ -31,6 +31,11 @@ h1, h2, h3 {
 	text-transform: uppercase;
 }
 
+p {
+	margin: 0;
+	padding: 0;
+}
+
 ol, h1, h2, h3 {
 	margin: 0;
 	padding: 0;
@@ -142,21 +147,23 @@ li {
 	margin-top: 14px;
 }
 
-.h2_a {
+.section_headline {
 	margin-left: 20px;
 
 	color: #e7e7e7;
 	font-size: 50px;
 }
 
-.pictore_football {
-	position: absolute;
+.picture_football {
+	position: relative;
+	z-index: 10;
 	width: 192px;
 	left: calc(50vw - 90px);
 }
 
 .list_section {
-	margin-top: 225px;
+	position: relative;
+	top: -55px;
 }
 
 .iteam_section {
@@ -184,7 +191,7 @@ li {
   margin-left: 20px;
 }
 
-.number_h3 {
+.articale_number {
 	display: flex;
 }
 
@@ -201,13 +208,14 @@ li {
 	height: 4px;
 
 	background-color: #5e3db3;
+	border-radius: 2px;
 }
 
-/* .number:nth-child(3n+3)::after {
+.after_last::after {
 	background-color: #ffffff;
-} */
+}
 
-.h3_a {
+.articale_headline {
 	margin-left: 10px;
 
 	color: #c1c1c1; 
@@ -220,35 +228,72 @@ li {
 	line-height: 18px;
 }
 
-/* .text_section:nth-child(3n+3) {
+.text_last {
   color: #ffffff;
-} */
+}
 
 .picture_basketballer {
-	position: absolute;
+	position: relative;
+	z-index: 10;
 	width: 302px;
 	left: calc(50vw - 151px);
+}
+
+.list_basketballer {
+	top: -25px;
 }
 
 .iteam_basketballer:nth-child(3n+3) {
 	background-color: #090a36;
 }
 
-/* .number_basketballer:nth-child(3n+3) {
+.number_last {
 	color: #8761e0;
-} */
+}
 
 .picture_development {
-  position: absolute;
 	width: 100%;
 }
 
-.number_background {
-	margin-left: 20px;
+.number_text {
+	position: relative;
+	z-index: 10;
+	top: -58px;
 
+	margin-left: 20px;
+}
+
+.number_background {
+	box-sizing: border-box;
 	width: 70px;
 	height: 70px;
+	
+	padding-top: 23px;
+	padding-left: 27px;
 
 	background-color: #5e3db3;
 }
 
+.development { /*чтобы компенсировать сдвиг из-за баскетболиста*/
+	position: relative;
+	top: -25px; 
+}
+
+.development_number {
+	color: #f5f6f7;
+} 
+
+.development_number::after {
+	background-color: #8f78ca;
+}
+
+.development_headline {
+	font-size: 28px;
+	margin-left: 0;
+	margin-top: 21px;
+	margin-bottom: 23px;
+}
+
+.development_headline:nth-child(n+2) {
+	margin-top: 24px;
+}
