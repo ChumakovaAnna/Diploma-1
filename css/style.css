@@ -223,7 +223,7 @@ li {
 }
 
 .iteam_basketballer:nth-child(3n+3) {
-	background-color: #090a36;	
+	background-color: #090a36;
 }
 
 /* .number_basketballer:nth-child(3n+3) {
@@ -231,11 +231,11 @@ li {
 } */
 
 .picture_development {
+  position: absolute;
 	width: 100%;
 }
 
 .number_background {
-	position: absolute;
 	margin-left: 20px;
 
 	width: 70px;
