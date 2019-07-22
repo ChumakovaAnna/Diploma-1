@@ -63,16 +63,14 @@ li {
 
 .header_content {
 	position: relative;
-}
-
-.logotype {
-	margin-left: auto;
-	margin-right: auto;
-	width: 133px;
+	padding-top: 33px;
 }
 
 .logotype_svg {
-	margin-top: 33px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 133px;
 
 	fill: #ffffff;
 }
@@ -87,13 +85,13 @@ li {
 	text-transform: uppercase;
 }
 
-.headline_1 {
+.headline_be {
 	position: relative;
 	width: 208px;
 	left: calc(50vw - 140px);
 }
 
-.headline_2 {
+.headline_play {
 	position: relative;
 	margin-top: 29px;
 	width: 214px;
