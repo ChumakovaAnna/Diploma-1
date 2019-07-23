@@ -27,6 +27,23 @@ a {
 	text-decoration: none;
 }
 
+button {
+	padding: 0;
+	border: none;
+	font: inherit;
+  color: inherit;
+	background-color: transparent;
+	outline: none;
+}
+
+button:hover {
+	background-color: #4d2aa7;
+}
+
+button:focus {
+	border: 1px #fecd07 solid;
+}
+
 h1, h2, h3 {
 	text-transform: uppercase;
 }
@@ -74,7 +91,7 @@ li {
 	padding-top: 33px;
 }
 
-.logotype_svg {
+.text_svg {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -112,20 +129,22 @@ li {
   margin-top: 89px;
 }
 
-.dowload_button {
+.download_button {
 	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
 	width: 280px;
-	height: 35px;	
+	height: 35px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 5px;
 	
 	background-color: #5e3db3;
 	border-radius: 17px 17px;
 }
 
-.dowload_store {
+.download_store {
 	display: flex;
+	align-items: center;
 
 	font-size: 8px;
 	color: #ffffff;
@@ -135,16 +154,23 @@ li {
 .store_svg {
 	height: 24px;
 	fill: #ffffff;
-	margin-left: 82px;
 	margin-right: 8px;
+}
+
+.download_text {
+	text-align: left;
 }
 
 .store {
 	font-weight: 700;
 }
 
-.dowload_google {
+.download_google {
 	margin-top: 14px;
+}
+
+.google_text {
+	margin-right: 24px;
 }
 
 .section_headline {
@@ -293,4 +319,46 @@ li {
 
 .development_headline:nth-child(n+2) {
 	margin-top: 24px;
+}
+
+.footer_background {
+	min-height: 568px;
+
+	background-color: #0a0e34;
+	background-image: url(../images/game_767.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.footer_background::before {
+	content: "";
+	position: absolute;
+	max-height: 568px;
+	height: 100%;
+	width: 100vw;
+
+	background-color: #0a0e34;
+	opacity: 0.9;
+}
+
+.footer_content {
+	position: relative;
+	z-index: 10;
+}
+
+.button_logotype {
+	width: 72px;
+	height: 74px;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	border-radius: 16px;
+	background-image: linear-gradient(#7655d6, #51379b);
+}
+
+.logotype_svg {
+	width: 57px;
+	fill: #ffffff;
 }
