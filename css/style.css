@@ -101,7 +101,7 @@ li {
 }
 
 .header_headline {
-	margin-top: 136px;
+	margin-top: 130px;
 
 	color: #ffffff;
 	font-size: 28px;
@@ -113,20 +113,25 @@ li {
 .headline_be {
 	position: relative;
 	width: 208px;
-	left: calc(50vw - 140px);
+	left: calc(50% - 140px);
+
+	letter-spacing: 1.4px;
 }
 
 .headline_play {
 	position: relative;
 
 	display: block;
-	margin-top: 29px;
+	margin-top: 20px;
 	width: 214px;
-	left: calc(50vw - 96px);
+	left: calc(50% - 96px);
+
+	letter-spacing: 1px;
+	line-height: 33px;
 }
 
-.buttons {
-  margin-top: 89px;
+.buttons_header {
+  margin-top: 85px;
 }
 
 .download_button {
@@ -139,12 +144,11 @@ li {
 	margin-right: auto;
 	
 	background-color: #5e3db3;
-	border-radius: 17px 17px;
+	border-radius: 17px;
 }
 
 .download_store {
 	display: flex;
-	align-items: center;
 
 	font-size: 8px;
 	color: #ffffff;
@@ -157,8 +161,17 @@ li {
 	margin-right: 8px;
 }
 
+.svg_apple {
+	margin-bottom: 5px;
+}
+
 .download_text {
 	text-align: left;
+	letter-spacing: 0.4px;
+}
+
+.text_apple {
+	margin-top: 2px;
 }
 
 .store {
@@ -173,6 +186,10 @@ li {
 	margin-right: 24px;
 }
 
+.athlets {
+	padding-top: 8px;
+}
+
 .section_headline {
 	margin-left: 20px;
 
@@ -183,7 +200,9 @@ li {
 .picture_football {
 	position: absolute;
 	width: 192px;
-	left: calc(50vw - 90px);
+	left: calc(50% - 90px);
+
+	margin-top: 4px;
 }
 
 .list_section {
@@ -212,7 +231,7 @@ li {
 }
 
 .article_section {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .articale_number {
@@ -259,7 +278,7 @@ li {
 .picture_basketballer {
 	position: absolute;
 	width: 302px;
-	left: calc(50vw - 151px);
+	left: calc(50% - 151px);
 }
 
 .list_basketballer {
@@ -322,7 +341,7 @@ li {
 }
 
 .footer_background {
-	min-height: 568px;
+	max-height: 568px;
 
 	background-color: #0a0e34;
 	background-image: url(../images/game_767.jpg);
@@ -336,7 +355,7 @@ li {
 	position: absolute;
 	max-height: 568px;
 	height: 100%;
-	width: 100vw;
+	width: 100%;
 
 	background-color: #0a0e34;
 	opacity: 0.9;
@@ -345,12 +364,13 @@ li {
 .footer_content {
 	position: relative;
 	z-index: 10;
+	padding-top: 99px;
 }
 
 .button_logotype {
+	display: block;
 	width: 72px;
 	height: 74px;
-
 	margin-left: auto;
 	margin-right: auto;
 
@@ -360,5 +380,42 @@ li {
 
 .logotype_svg {
 	width: 57px;
+
 	fill: #ffffff;
+}
+
+.download_app {
+	text-align: center;
+	margin-top: 59px;
+
+	text-transform: uppercase;
+}
+
+.text_app {
+	font-size: 32px;
+	color: #ffffff;
+	font-weight: 700;
+}
+
+.text_show {
+	font-size: 14px;
+	color: #9b8dc3;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+}
+
+.buttons_footer {
+	margin-top: 76px;
+}
+
+.text_svg_footer {
+	margin-top: 76px;
+	padding-bottom: 10px;
+}
+
+BODY {
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-image: url(../images/perfect/surface_320.png);
+	opacity: 0.3;
 }
