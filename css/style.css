@@ -1,9 +1,9 @@
-BODY {
+/* BODY {
 	background-repeat: no-repeat;
 	background-position: 50% 0;
 	background-image: url(../images/perfect/surface_320.png);
 	opacity: 0.3;
-}
+} */
 
 @font-face {
 	font-family: 'OpenSans';
@@ -87,7 +87,6 @@ li {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	max-height: 568px;
 
 	background-color: #0a0e34;
 	opacity: 0.9;
@@ -242,7 +241,7 @@ li {
 }
 
 .article_section {
-  margin-left: 20px;
+  padding-left: 20px;
 }
 
 .articale_number {
@@ -258,7 +257,6 @@ li {
 .number::after {
 	content: "";
 	display: block;
-	width: 15px;
 	height: 4px;
 
 	background-color: #5e3db3;
@@ -415,7 +413,7 @@ li {
 	padding-top: 99px;
 }
 
-.button_logotype {
+.icon_logotype {
 	display: block;
 	width: 72px;
 	height: 74px;
