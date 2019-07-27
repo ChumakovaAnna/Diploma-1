@@ -71,6 +71,7 @@ li {
 }
 
 .header {
+	position: relative;
 	min-height: 568px;
 
 	background-color: #0a0e34;
@@ -78,7 +79,7 @@ li {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
+	}
 
 .header::before {
 	content: "";
@@ -90,6 +91,7 @@ li {
 
 	background-color: #0a0e34;
 	opacity: 0.9;
+	height: 100%;
 }
 
 .header_content {
