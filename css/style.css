@@ -197,11 +197,9 @@ li {
 }
 
 .picture_football {
-	position: absolute;
 	width: 192px;
-	left: calc(50% - 90px);
-
-	margin-top: 4px;
+	margin-top: 6px;
+	margin-left: 22%;
 }
 
 .list_section {
