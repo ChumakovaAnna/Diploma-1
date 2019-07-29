@@ -111,27 +111,25 @@ li {
 }
 
 .header_headline {
-	margin-top: 125px;
+	margin-top: 122px;
 	margin-left: 6.25%;
 
 	color: #ffffff;
 	font-size: 28px;
-	line-height: 31px;
 	font-weight: 700;
-	text-transform: uppercase;
 	letter-spacing: 1.4px;
 }
 
 .headline_play {
 	display: inline-block;
-	margin-top: 20px;
+	margin-top: 16px;
 	margin-left: 15%;
 	
 	line-height: 33px;
 }
 
 .buttons_header {
-  margin-top: 85px;
+  margin-top: 82px;
 }
 
 .download_button {
@@ -477,5 +475,140 @@ li {
 
 	.link_logotype {
 		width: 205px;
+	}
+
+	.header_headline {
+		margin-top: 156px;
+		margin-left: 10%;
+	
+		font-size: 64px;
+		letter-spacing: 3px;
+	}
+	
+	.headline_play {
+		margin-top: 0;
+		margin-left: 16%;
+		
+		line-height: 74px;
+	}
+	
+	.buttons_header, .buttons_footer {
+		display: flex;
+		margin-top: 296px;
+		justify-content: center;
+	}
+	
+	.download_button {
+		width: 311px;
+		height: 77px;
+		margin-left: 0;
+		margin-right: 0;
+		justify-content: start;
+
+		border-radius: 36px;
+
+		font-size: 14px;
+	}
+
+	.download_button:first-child {
+		margin-right: 30px;
+	}
+
+	.apple_svg {
+		width: 44px;
+		margin-left: 35px;
+		margin-right: 19px;
+	}
+	
+	.apple_text {
+		width: 137px;
+	}
+	
+	.name_store {
+		font-weight: 700;
+	}
+	
+	.download_google {
+		margin-top: 0;
+	}
+	
+	.store_svg {
+		width: 44px;
+		margin-left: 55px;
+		margin-right: 30px;
+	}
+	
+	.google_text {
+		width: 98px;
+	}
+
+	.athlets {
+		position: relative;
+
+		padding-top: 56px;
+	}
+
+	.section_headline {
+		margin-left: 37.50%;
+		font-size: 80px;
+	}
+
+	.picture_football {
+		position: absolute;
+		top: 90px;
+		left: -180px;
+	}
+
+	.iteam_section {
+		padding-left: 35%;
+		padding-right: 3%;
+	}
+
+	.iteam_section:first-child {
+		margin-top: 15px;
+
+		background-color: #ffffff;
+	}
+
+	.iteam_section:nth-child(2) {
+		padding-top: 11px;
+		padding-bottom: 38px;
+	}
+
+	.iteam_section:nth-child(3) {
+		padding-top: 31px;
+		padding-bottom: 9px;
+	}
+
+	.number {
+		font-size: 18px;
+	}
+
+	.articale_headline {
+		font-size: 32px;
+	}
+
+	.text_section {
+		margin-top: 19px;
+
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+	.players {
+		padding-top: 57px;
+	}
+
+	.players_headline {
+		margin-left: 18px;
+	}
+
+	.picture_basketballer {
+		position: absolute;
+	}
+
+	.iteam_basketballer {
+		padding-left: 0;
+		padding-right: 45%;
 	}
 }
