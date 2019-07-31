@@ -570,6 +570,33 @@ li {
 	.text_work {
 		margin-bottom: 12px;
 	}
+	
+	.icon_logotype {
+		width: 130px;
+		height: 137px;
+		padding-top: 18px;
+
+		border-radius: 32px;
+	}
+
+	.logotype_svg {
+		width: 104px;
+	}
+	
+	.text_app {
+		font-size: 80px;
+		letter-spacing: 4.85px;
+		line-height: 96px;
+	}
+
+	.text_show {
+		font-size: 36px;
+	}
+	
+	.text_svg_footer {
+		margin-top: 54px;
+		padding-bottom: 24px;
+	}
 }
 
 
@@ -707,18 +734,6 @@ li {
 		padding-top: 130px;
 	}
 
-	.icon_logotype {
-		width: 130px;
-		height: 137px;
-		padding-top: 18px;
-
-		border-radius: 32px;
-	}
-
-	.logotype_svg {
-		width: 104px;
-	}
-
 	.download_app {
 		margin-top: 59px;
 	}
@@ -766,12 +781,13 @@ li {
 	}
 	
 	.headline_play {
-		margin-top: 0;
+		margin-top: -10px;
 		margin-left: 26%;
+		line-height: normal;
 	}
 	
 	.buttons_header {
-		margin-top: 213px;
+		margin-top: 9.5%;
 	}
 	
 	.download_button:first-child {
@@ -875,6 +891,7 @@ li {
 		padding-top: 51px;
 		padding-left: 69px;
 	}
+
 	.background_active {		
 		right: -89px;
 	}
@@ -886,19 +903,28 @@ li {
 
 	.picture_contact {
 		order: 1;
-		left: calc(100% - 1017px);
+		left: 89px;
 	}
 
 	.background_contact {
 		left: -85px;
 	}
 
+	.content_contact {
+		width: 1260px;
+		margin-left: 182px;
+	}
+
 	.background_work {
-		left: 0;
+		right: -830px;
 	}
 
 	.content_work {
-		margin-left: 200px;
+		margin-left: 19px;
+	}
+
+	.text_work {
+		margin-top: 68px;
 	}
 	
 	.footer_background {
@@ -908,42 +934,29 @@ li {
 	}
 
 	.footer_content {
-		padding-top: 130px;
+		padding-top: 226px;
 	}
 
+	.logotype_download {
+		display: flex;
+		justify-content: center;
+	}
+	
 	.icon_logotype {
-		width: 130px;
-		height: 137px;
-		padding-top: 18px;
-
-		border-radius: 32px;
-	}
-
-	.logotype_svg {
-		width: 104px;
+		margin: 0;
 	}
 
 	.download_app {
-		margin-top: 59px;
-	}
-
-	.text_app {
-		font-size: 80px;
-		letter-spacing: 4.85px;
-		line-height: 96px;
+		margin-top: 0;
+		margin-left: 23px;
+		text-align: left;
 	}
 
 	.text_show {
-		font-size: 36px;
+		font-size: 27px;
 	}
 
 	.buttons_footer {
-		margin-top: 278px;
+		margin-top: 150px;
 	}
-
-	.text_svg_footer {
-		margin-top: 54px;
-		padding-bottom: 24px;
-	}
-
 }
