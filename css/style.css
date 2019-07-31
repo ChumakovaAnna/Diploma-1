@@ -533,6 +533,43 @@ li {
 	.iteam_basketballer:first-child {
 		padding-top: 0px;
 	}
+
+	.development_number {
+		font-size: 24px;
+	}
+
+	.development_number::after {
+		width: 27px;
+	}
+
+	.development_content .development_headline {
+		margin-top: 16px;
+
+		font-size: 80px;
+		letter-spacing: normal;
+	}
+
+	.text_development {
+		font-size: 24px;
+		line-height: 28px;
+		letter-spacing: 1.4px;
+	}
+
+	.background_not_first {
+		bottom: -19px;
+	}
+
+	.headline_not_first {
+		margin-top: 4px;
+	}
+
+	.text_contact {
+		margin-bottom: 5px;
+	}
+
+	.text_work {
+		margin-bottom: 12px;
+	}
 }
 
 
@@ -655,46 +692,9 @@ li {
 		padding-left: 43px;
 	}
 
-	.development_number {
-		font-size: 24px;
-	}
-
-	.development_number::after {
-		width: 27px;
-	}
-
 	.development_content {
 		padding-top: 23px;
 		padding-bottom: 21px;
-	}
-
-	.development_headline {
-		margin-top: 16px;
-
-		font-size: 80px;
-		letter-spacing: normal;
-	}
-
-	.text_development {
-		font-size: 24px;
-		line-height: 28px;
-		letter-spacing: 1.4px;
-	}
-	
-	.background_not_first {
-		bottom: -19px;
-	}
-
-	.headline_not_first {
-		margin-top: 4px;
-	}
-
-	.text_contact {
-		margin-bottom: 5px;
-	}
-
-	.text_work {
-		margin-bottom: 12px;
 	}
 
 	.footer_background {
@@ -762,7 +762,7 @@ li {
 	
 		font-size: 90px;
 		letter-spacing: 3px;
-		line-height: 93px;
+		line-height: 1.03em;
 	}
 	
 	.headline_play {
@@ -818,7 +818,7 @@ li {
 
 	.iteam_section:nth-child(3) {
 		padding-top: 50px;
-		padding-bottom: 56px;
+		padding-bottom: 61px;
 	}
 
 	.players {
@@ -851,12 +851,9 @@ li {
 		margin-top: 20px;
 	}
 
-	.iteam_basketballer:last-child {
-		padding-bottom: 53px;
-	}
-
 	.li_development {
 		display: flex;
+		padding-bottom: 0;
 	}
 
 	.picture_container {
@@ -869,59 +866,41 @@ li {
 	}
 
 	.number_background {
-		/* left: 25px; */
-		top: 211px;
+		top: 208px;
 
 		width: 168px;
 		height: 155px;
 		margin-left: auto;
 		margin-right: auto;
-		padding-top: 30px;
-		padding-left: 43px;
+		padding-top: 51px;
+		padding-left: 69px;
 	}
-
-	.development_number {
-		font-size: 24px;
-	}
-
-	.development_number::after {
-		width: 27px;
+	.background_active {		
+		right: -89px;
 	}
 
 	.development_content {
-		padding-top: 23px;
-		padding-bottom: 21px;
+		padding-top: 194px;
+		margin-left: -723px;
 	}
 
-	.development_headline {
-		margin-top: 16px;
-
-		font-size: 80px;
-		letter-spacing: normal;
+	.picture_contact {
+		order: 1;
+		left: calc(100% - 1017px);
 	}
 
-	.text_development {
-		font-size: 24px;
-		line-height: 28px;
-		letter-spacing: 1.4px;
+	.background_contact {
+		left: -85px;
+	}
+
+	.background_work {
+		left: 0;
+	}
+
+	.content_work {
+		margin-left: 200px;
 	}
 	
-	.background_not_first {
-		bottom: -19px;
-	}
-
-	.headline_not_first {
-		margin-top: 4px;
-	}
-
-	.text_contact {
-		margin-bottom: 5px;
-	}
-
-	.text_work {
-		margin-bottom: 12px;
-	}
-
 	.footer_background {
 		max-height: 959px;
 
@@ -966,4 +945,5 @@ li {
 		margin-top: 54px;
 		padding-bottom: 24px;
 	}
+
 }
