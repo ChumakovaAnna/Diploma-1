@@ -1,11 +1,11 @@
-BODY {
+/* BODY {
 	background-repeat: no-repeat;
 	background-position: 50% 0;
-	/* background-image: url(../images/perfect/surface_320.png); */
+	background-image: url(../images/perfect/surface_320.png);
 	background-image: url(../images/perfect/surface_768.png);
-	/* background-image: url(../images/perfect/surface_desktop.png); */
+	background-image: url(../images/perfect/surface_desktop.png);
 	opacity: 0.8;
-}
+} */
 
 @font-face {
 	font-family: 'OpenSans';
@@ -343,8 +343,6 @@ li {
 .number_background {
 	position: absolute;
 	z-index: 10;
-	left: 20px;
-	bottom: -10px;
 
 	box-sizing: border-box;
 	width: 70px;
@@ -475,6 +473,13 @@ li {
 	margin-top: 84px;
 }
 
+@media (max-width: 640px) {
+	.number_background {
+		left: 20px;
+		bottom: -10px;
+	}
+}
+
 @media (min-width: 641px) {
 	.header {
 		min-height: 960px;
@@ -558,7 +563,7 @@ li {
 	}
 
 	.development_content .development_headline {
-		margin-top: 16px;
+		margin-top: 36px;
 
 		font-size: 80px;
 		letter-spacing: normal;
@@ -570,12 +575,8 @@ li {
 		letter-spacing: 1.4px;
 	}
 
-	.background_not_first {
-		bottom: -19px;
-	}
-
-	.headline_not_first {
-		margin-top: 4px;
+	.text_active {
+		width: 95%;
 	}
 
 	.text_contact {
@@ -610,7 +611,6 @@ li {
 	
 	.text_svg_footer {
 		margin-top: 54px;
-		padding-bottom: 24px;
 	}
 }
 
@@ -663,6 +663,8 @@ li {
 	.picture_footballer {
 		top: 90px;
 		left: -170px;
+
+		width: 497px;
 	}
 
 	.iteam_section {
@@ -705,7 +707,9 @@ li {
 
 	.picture_basketballer {
 		top: 30px;
-		right: 134px;
+		right: 0;
+
+		width: 436px;
 	}
 
 	.iteam_players {
@@ -731,17 +735,9 @@ li {
 
 		width: 116px;
 		height: 116px;
-		padding-top: 30px;
+		padding-top: 33px;
 		padding-left: 43px;
 	}
-/* 
-	.background_contact {
-		bottom: -36px;
-	}
-
-	.background_work {
-		bottom: -40px;
-	} */
 
 	.development_content {
 		padding-top: 23px;
@@ -750,14 +746,25 @@ li {
 		padding-left: 30px;
 	}
 
-	.footer_background {
-		max-height: 959px;
+	.background_not_first {
+		bottom: -19px;
+	}
 
+	.development_content .headline_not_first {
+		margin-top: 25px;
+	}
+
+	.article_development:last-child {
+		padding-bottom: 76px;
+}
+
+	.footer_background {
 		background-image: url(../images/game_1280.jpg);
 	}
 
 	.footer_content {
 		padding-top: 130px;
+		padding-bottom: 20px;
 	}
 
 	.download_app {
@@ -780,7 +787,6 @@ li {
 
 	.text_svg_footer {
 		margin-top: 54px;
-		padding-bottom: 24px;
 	}
 }
 
@@ -831,11 +837,13 @@ li {
 
 	.picture_footballer {
 		top: 22px;
-		left: 19.7%;
+		left: 20%;
+
+		width: 566px;
 	}
 
 	.iteam_section {
-		padding-left: 51.5%;
+		padding-left: 52.5%;
 		padding-right: 9%;
 	}
 
@@ -861,7 +869,7 @@ li {
 
 	.iteam_section:nth-child(3) {
 		padding-top: 50px;
-		padding-bottom: 61px;
+		padding-bottom: 56px;
 	}
 
 	.players {
@@ -874,11 +882,13 @@ li {
 
 	.picture_basketballer {
 		top: 14px;
-		left: 41.7%;
+		right: 6.5%;
+
+		width: 991px;
 	}
 
 	.iteam_players {
-		padding-left: 8.5%;
+		padding-left: 10%;
 		padding-right: 50%;
 	}
 
@@ -899,38 +909,43 @@ li {
 		padding-bottom: 0;
 	}
 
+	.pictures_number {
+		width: 50%;		
+	}
+
 	.picture_container {
-		width: 953px;
+		width: 100%;
 		height: 730px;
 	}
 
-	.picture_development {
-		height: 100%;
-	}
-
 	.number_background {
-		top: 208px;
+		top: calc(50% - 153px);
 
 		width: 168px;
 		height: 155px;
-		margin-left: auto;
-		margin-right: auto;
 		padding-top: 51px;
 		padding-left: 69px;
 	}
 
-	.background_active {		
-		right: -89px;
+	.text_development {
+		margin-top: 74px;
+	}
+
+	.background_active, .background_work {
+		right: -85px;
 	}
 
 	.development_content {
-		padding-top: 194px;
-		margin-left: -723px;
+		box-sizing: border-box;
+		width: 50%;
+		padding-top: 197px;
+		padding-right: 130px;
+		padding-bottom: 60px;
+		padding-left: 123px;
 	}
 
 	.picture_contact {
 		order: 1;
-		left: 89px;
 	}
 
 	.background_contact {
@@ -938,20 +953,15 @@ li {
 	}
 
 	.content_contact {
-		width: 1260px;
-		margin-left: 182px;
+		padding-left: 188px;
 	}
 
-	.background_work {
-		right: -830px;
+	.text_contact {
+		margin-top: 38px;
 	}
 
-	.content_work {
-		margin-left: 19px;
-	}
-
-	.text_work {
-		margin-top: 68px;
+	.article_development:last-child {
+		padding-bottom: 0;
 	}
 	
 	.footer_background {
